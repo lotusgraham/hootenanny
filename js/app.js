@@ -3,7 +3,7 @@ $(function() {
     var form = $('#contact-form-face');
 
     // Get the messages div.
-    var formMessages = $('#form-messages');
+    var formMessages = $('#respond_clear');
 
     // Set up an event listener for the contact form.
     $(form).submit(function(event) {
