@@ -840,12 +840,12 @@ footer h4 {color:#fff;}
 }
 .social li a {
 	display:block;
-	width:50px;
-	height:50px;
+	width:150px;
+	height:150px;
 	border:1px solid #242424;
 	text-align:center;
-	line-height:46px;
-	font-size:23px;
+	line-height:150px;
+	font-size:83px;
 	color:#333;
 }
 .social li a:hover {
