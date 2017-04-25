@@ -338,12 +338,26 @@
 								<div class="span9 contact_form">
 									<div id="note"></div>
 									<div id="fields">
-										<form id="contact-form-face" class="clearfix" method="post" action="mailer.php">
-											<input type="text" name="name" value="Name" onFocus="if (this.value == 'Name') this.value = '';" onBlur="if (this.value == '') this.value = 'Name';" />
-											<input type="text" name="email" value="Email" onFocus="if (this.value == 'Email') this.value = '';" onBlur="if (this.value == '') this.value = 'Email';" />
-											<textarea name="message" onFocus="if (this.value == 'Message') this.value = '';" onBlur="if (this.value == '') this.value = 'Message';" required>Message</textarea>
-											<input class="contact_btn" type="submit" value="Send message" />
-										</form>
+										<form id="contact-form-face" method="post" action="mailer.php">
+								    <div class="field">
+								        <label for="name">Name:</label>
+								        <input type="text" id="name" name="name" required>
+								    </div>
+
+								    <div class="field">
+								        <label for="email">Email:</label>
+								        <input type="email" id="email" name="email" required>
+								    </div>
+
+								    <div class="field">
+								        <label for="message">Message:</label>
+								        <textarea id="message" name="message" required></textarea>
+								    </div>
+
+								    <div class="field">
+								        <button type="submit">Send</button>
+								    </div>
+								</form>
 									</div>
 								</div><!-- //CONTACT FORM -->
 							</div>
